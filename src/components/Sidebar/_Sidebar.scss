@@ -1,4 +1,5 @@
 .sidebar {
+	align-self: flex-start;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -24,6 +25,7 @@
 			margin-bottom: 10px;
 		}
 		&:last-child {
+			margin-top: 20px;
 			height: 135px;
 		}
 	}

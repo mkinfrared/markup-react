@@ -1,0 +1,38 @@
+.main-view {
+	width: calc(100% - 190px - 20px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	.top {
+		background-color: #DCDCDC;
+		text-align: left;
+		padding: 10px;
+		strong {
+			font-weight: bold;
+		}
+		ul {
+			margin: 20px 0 20px 40px;
+			list-style: disc;
+		}
+	}
+	.middle {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+		div {
+			width: 120px;
+			height: 170px;
+			background-color: #DCDCDC;
+		}
+	}
+	.bottom {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+		div {
+			width: 48%;
+			background-color: #DCDCDC;
+			padding: 20px;
+		}
+	}
+}

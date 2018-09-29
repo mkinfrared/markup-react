@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	height: 140px;
+	padding: 20px 0;
+	div {
+		background-color: #777777;
+		&:first-child {
+			width: 100px;
+		}
+		&:nth-child(2){
+			width: 280px;
+		}
+		&:last-child {
+			width: 513px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-end;
+			padding: 20px;
+			color: #FFFFFF;
+			a {
+				color: #FFFFFF;
+			}
+		}
+	}
+}
